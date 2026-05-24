@@ -58,7 +58,7 @@ export function Header() {
 
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
-              <span className="text-xl font-medium tracking-tight text-foreground">Pro<span className="font-semibold">ACTIVE</span></span>
+              <span className="text-xl font-semibold tracking-[0.25em] text-foreground">V A L A N C E</span>
             </Link>
 
             {/* Desktop Navigation */}

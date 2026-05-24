@@ -62,7 +62,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <span className="text-xl font-medium tracking-tight">Pro<span className="font-semibold">ACTIVE</span></span>
+              <span className="text-xl font-semibold tracking-[0.25em]">V A L A N C E</span>
             </Link>
             <p className="text-sm text-background/60 leading-relaxed max-w-xs">
               Premium athleisure designed for movement, comfort, and everyday elegance.
@@ -127,7 +127,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-background/40">
-              2026 ProACTIVE. All rights reserved.
+              2026 V A L A N C E. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link href="#" className="text-xs text-background/40 hover:text-background/60 transition-colors">

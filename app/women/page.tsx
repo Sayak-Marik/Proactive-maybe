@@ -4,7 +4,7 @@ import { CollectionPage } from "@/components/collection-page"
 import { womenProducts } from "@/lib/products"
 
 export const metadata = {
-  title: "Women's Collection | ProACTIVE",
+  title: "Women's Collection | VALANCE",
   description: "Shop women's premium athleisure and performance wear. Leggings, sports bras, hoodies, and more.",
 }
 
@@ -17,7 +17,7 @@ export default function WomensPage() {
         description="Designed for strength and grace. Premium activewear that moves with you."
         products={womenProducts}
         gender="women"
-        heroImage="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2070&auto=format&fit=crop"
+        heroImage="/images/womens_hero.png"
       />
       <Footer />
     </>

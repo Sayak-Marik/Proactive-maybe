@@ -9,8 +9,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'ProACTIVE | Premium Menswear',
-  description: 'Discover premium menswear engineered for movement and performance. Sustainable, stylish, and made for your active lifestyle.',
+  title: 'VALANCE | Premium Activewear',
+  description: 'Discover premium activewear engineered for movement and performance. Sustainable, stylish, and made for your active lifestyle.',
   generator: 'v0.app',
   icons: {
     icon: [

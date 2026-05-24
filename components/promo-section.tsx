@@ -10,7 +10,7 @@ export function PromoSection() {
           <div 
             className="relative aspect-[4/5] lg:aspect-auto bg-cover bg-center rounded-sm overflow-hidden"
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop')`,
+              backgroundImage: `url('/images/promo_philosophy.png')`,
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent" />

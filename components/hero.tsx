@@ -47,10 +47,10 @@ export function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-foreground/50">
+      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-foreground/50">
         <span className="text-xs uppercase tracking-widest">Scroll</span>
         <div className="w-px h-10 bg-foreground/30 animate-pulse" />
-      </div>
+      </div> */}
     </section>
   )
 }

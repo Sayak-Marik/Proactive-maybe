@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Plus_Jakarta_Sans } from 'next/font/google'
+import { Playfair_Display, Plus_Jakarta_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -8,8 +8,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-sans',
 });
 
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: '--font-display',
+});
+
 export const metadata: Metadata = {
-  title: 'V A L E N C E | Premium Menswear',
+  title: 'VALENCE | Premium Menswear',
   description: 'Discover premium menswear engineered for movement and performance. Sustainable, stylish, and made for your active lifestyle.',
   generator: 'v0.app',
   icons: {
@@ -42,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <body className={`${plusJakartaSans.variable} font-sans antialiased`}>
+      <body className={`${plusJakartaSans.variable} ${playfairDisplay.variable} font-sans antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

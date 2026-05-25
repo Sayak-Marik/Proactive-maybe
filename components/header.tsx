@@ -58,7 +58,7 @@ export function Header() {
 
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">
-              <span className="text-xl font-medium tracking-tight text-foreground font-semibold">V A L E N C E</span>
+              <span className="font-display text-2xl font-light tracking-[0.15em] text-foreground">VALENCE</span>
             </Link>
 
             {/* Desktop Navigation */}

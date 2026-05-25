@@ -4,7 +4,7 @@ import { CollectionPage } from "@/components/collection-page"
 import { womenProducts } from "@/lib/products"
 
 export const metadata = {
-  title: "Women's Collection | ProACTIVE",
+  title: "Women's Collection | V A L E N C E",
   description: "Shop women's premium athleisure and performance wear. Leggings, sports bras, hoodies, and more.",
 }
 

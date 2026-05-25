@@ -11,11 +11,11 @@ const footerLinks = {
     { name: "Sale", href: "#" },
   ],
   help: [
-    { name: "FAQ", href: "#" },
-    { name: "Shipping & Returns", href: "#" },
-    { name: "Size Guide", href: "#" },
-    { name: "Contact Us", href: "#" },
-    { name: "Track Order", href: "#" },
+    { name: "FAQ", href: "/help" },
+    { name: "Shipping & Returns", href: "/help" },
+    { name: "Size Guide", href: "/help" },
+    { name: "Track Order", href: "/help" },
+    { name: "Privacy Policy", href: "#" },
   ],
   company: [
     { name: "Our Story", href: "#" },
@@ -23,6 +23,11 @@ const footerLinks = {
     { name: "Careers", href: "#" },
     { name: "Press", href: "#" },
     { name: "Stores", href: "#" },
+  ],
+  contact: [
+    { label: "WhatsApp", href: "https://wa.me/85280090622" },
+    { label: "Phone", value: "+852 8009 06220 (Toll Free)" },
+    { label: "Email", href: "mailto:contact@valence.com" },
   ],
 }
 
@@ -62,7 +67,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <span className="text-xl font-medium tracking-tight">Pro<span className="font-semibold">ACTIVE</span></span>
+              <span className="font-display text-2xl font-light tracking-[0.15em]">VALENCE</span>
             </Link>
             <p className="text-sm text-background/60 leading-relaxed max-w-xs">
               Premium athleisure designed for movement, comfort, and everyday elegance.
@@ -119,6 +124,35 @@ export function Footer() {
               ))}
             </ul>
           </div>
+
+          {/* Contact Us */}
+          <div>
+            <h4 className="text-sm uppercase tracking-wider mb-6 text-background/80">Contact Us</h4>
+            <ul className="space-y-3">
+              {footerLinks.contact.map((item, idx) => (
+                <li key={idx}>
+                  {item.href ? (
+                    <Link
+                      href={item.href}
+                      className="text-sm text-background/60 hover:text-background transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <p className="text-sm text-background/60">
+                      <span className="font-medium text-background/80">{item.label}:</span> {item.value}
+                    </p>
+                  )}
+                </li>
+              ))}
+              <li className="text-xs text-background/40 mt-4 pt-2 border-t border-background/10">
+                <p>Monday to Sunday & Public Holidays</p>
+                <p>9AM - 6PM GMT</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -126,9 +160,9 @@ export function Footer() {
       <div className="border-t border-background/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-xs text-background/40">
-              2026 ProACTIVE. All rights reserved.
-            </p>
+          <p className="text-xs text-background/40">
+            2026 VALENCE. All rights reserved.
+          </p>
             <div className="flex gap-6">
               <Link href="#" className="text-xs text-background/40 hover:text-background/60 transition-colors">
                 Privacy Policy

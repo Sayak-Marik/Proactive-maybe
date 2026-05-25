@@ -17,7 +17,7 @@ export default function MensPage() {
         description="Performance wear engineered for movement. From training essentials to everyday comfort."
         products={menProducts}
         gender="men"
-        heroImage="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
+        heroImage="/images/mens_hero.png"
       />
       <Footer />
     </>

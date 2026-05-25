@@ -161,7 +161,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-background/40">
-            2026 VALENCE. All rights reserved.
+            2026 V A L E N CE. All rights reserved.
           </p>
             <div className="flex gap-6">
               <Link href="#" className="text-xs text-background/40 hover:text-background/60 transition-colors">
